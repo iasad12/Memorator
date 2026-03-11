@@ -53,6 +53,10 @@ export default function WelcomeModal({ onComplete }) {
           </span>
         </div>
 
+        <p style={{ textAlign: 'center', fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '2rem', marginBottom: '1.5rem', borderTop: '1px solid var(--border-color)', paddingTop: '1rem' }}>
+          Ideated by <a href="https://asadimran.pages.dev/" target="_blank" rel="noreferrer" style={{ color: 'var(--accent-primary)', textDecoration: 'none' }}>Asad Imran Shah</a>, Made with Antigravity
+        </p>
+
         <button 
           className="btn btn-primary" 
           style={{ width: '100%', padding: '0.8rem', fontSize: '1rem', fontWeight: 'bold' }} 

@@ -522,7 +522,7 @@ body {
   
   .header-left {
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 
   .sidebar-overlay.active {
